@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		421FBDE929C20E0118C4E7A5 /* Pods_Image_TarckARTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 425EC95F65EB0CE7D4F417D7 /* Pods_Image_TarckARTests.framework */; };
+		61F6529B2E679622DF90AB1C /* Pods_Image_TarckAR.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2652C4BEB5A86EB37343C68F /* Pods_Image_TarckAR.framework */; };
+		67BB7F24C51A2754F4E38194 /* Pods_Image_TarckAR_Image_TarckARUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C506805B9F0D2ABBD73E33D /* Pods_Image_TarckAR_Image_TarckARUITests.framework */; };
 		C700159E27C261D6001AF342 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C700159D27C261D6001AF342 /* AppDelegate.swift */; };
 		C70015A027C261D6001AF342 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = C700159F27C261D6001AF342 /* art.scnassets */; };
 		C70015A227C261D6001AF342 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C70015A127C261D6001AF342 /* ViewController.swift */; };
@@ -16,6 +19,11 @@
 		C70015B427C261D7001AF342 /* Image_TarckARTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C70015B327C261D7001AF342 /* Image_TarckARTests.swift */; };
 		C70015BE27C261D7001AF342 /* Image_TarckARUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C70015BD27C261D7001AF342 /* Image_TarckARUITests.swift */; };
 		C70015C027C261D7001AF342 /* Image_TarckARUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C70015BF27C261D7001AF342 /* Image_TarckARUITestsLaunchTests.swift */; };
+		C70015D127C2A8DD001AF342 /* video.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = C70015D027C2A8DD001AF342 /* video.mp4 */; };
+		C77406CF27C8C52B00CF1B4E /* faceID.json in Resources */ = {isa = PBXBuildFile; fileRef = C77406CE27C8C52B00CF1B4E /* faceID.json */; };
+		C77406D127C8FE5B00CF1B4E /* TrackerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C77406D027C8FE5B00CF1B4E /* TrackerViewController.swift */; };
+		C774071027C93B4000CF1B4E /* steve_jobs.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = C774070F27C9395B00CF1B4E /* steve_jobs.mp4 */; };
+		C774071427C94DE600CF1B4E /* speach.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = C774071327C94DE600CF1B4E /* speach.mp4 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +44,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2652C4BEB5A86EB37343C68F /* Pods_Image_TarckAR.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Image_TarckAR.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F2688FF670A78C7108FB13C /* Pods-Image TarckARTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Image TarckARTests.debug.xcconfig"; path = "Target Support Files/Pods-Image TarckARTests/Pods-Image TarckARTests.debug.xcconfig"; sourceTree = "<group>"; };
+		425EC95F65EB0CE7D4F417D7 /* Pods_Image_TarckARTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Image_TarckARTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		566B1665DDC8FD790C7E0775 /* Pods-Image TarckAR.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Image TarckAR.debug.xcconfig"; path = "Target Support Files/Pods-Image TarckAR/Pods-Image TarckAR.debug.xcconfig"; sourceTree = "<group>"; };
+		7C506805B9F0D2ABBD73E33D /* Pods_Image_TarckAR_Image_TarckARUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Image_TarckAR_Image_TarckARUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADAFAA40B434667EB0CB6FAE /* Pods-Image TarckARTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Image TarckARTests.release.xcconfig"; path = "Target Support Files/Pods-Image TarckARTests/Pods-Image TarckARTests.release.xcconfig"; sourceTree = "<group>"; };
 		C700159A27C261D6001AF342 /* Image TarckAR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Image TarckAR.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C700159D27C261D6001AF342 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C700159F27C261D6001AF342 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
@@ -48,6 +62,15 @@
 		C70015B927C261D7001AF342 /* Image TarckARUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Image TarckARUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C70015BD27C261D7001AF342 /* Image_TarckARUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Image_TarckARUITests.swift; sourceTree = "<group>"; };
 		C70015BF27C261D7001AF342 /* Image_TarckARUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Image_TarckARUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C70015D027C2A8DD001AF342 /* video.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = video.mp4; sourceTree = "<group>"; };
+		C7001A7627C4FA5B001AF342 /* Image-TarckAR-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Image-TarckAR-Info.plist"; sourceTree = SOURCE_ROOT; };
+		C77406CE27C8C52B00CF1B4E /* faceID.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = faceID.json; sourceTree = "<group>"; };
+		C77406D027C8FE5B00CF1B4E /* TrackerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackerViewController.swift; sourceTree = "<group>"; };
+		C774070F27C9395B00CF1B4E /* steve_jobs.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = steve_jobs.mp4; sourceTree = "<group>"; };
+		C774071327C94DE600CF1B4E /* speach.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = speach.mp4; sourceTree = "<group>"; };
+		D31A8E5C27A74D347C79EBB0 /* Pods-Image TarckAR-Image TarckARUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Image TarckAR-Image TarckARUITests.debug.xcconfig"; path = "Target Support Files/Pods-Image TarckAR-Image TarckARUITests/Pods-Image TarckAR-Image TarckARUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		E8AB92B569004EDF2FEDDA2F /* Pods-Image TarckAR.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Image TarckAR.release.xcconfig"; path = "Target Support Files/Pods-Image TarckAR/Pods-Image TarckAR.release.xcconfig"; sourceTree = "<group>"; };
+		F1AEA7E2653216A5EB64E5FD /* Pods-Image TarckAR-Image TarckARUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Image TarckAR-Image TarckARUITests.release.xcconfig"; path = "Target Support Files/Pods-Image TarckAR-Image TarckARUITests/Pods-Image TarckAR-Image TarckARUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				61F6529B2E679622DF90AB1C /* Pods_Image_TarckAR.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				421FBDE929C20E0118C4E7A5 /* Pods_Image_TarckARTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -69,19 +94,46 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				67BB7F24C51A2754F4E38194 /* Pods_Image_TarckAR_Image_TarckARUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A57128B38EA57C49A8F8B236 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2652C4BEB5A86EB37343C68F /* Pods_Image_TarckAR.framework */,
+				7C506805B9F0D2ABBD73E33D /* Pods_Image_TarckAR_Image_TarckARUITests.framework */,
+				425EC95F65EB0CE7D4F417D7 /* Pods_Image_TarckARTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C2B7E2ECB00033241E51B109 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				566B1665DDC8FD790C7E0775 /* Pods-Image TarckAR.debug.xcconfig */,
+				E8AB92B569004EDF2FEDDA2F /* Pods-Image TarckAR.release.xcconfig */,
+				D31A8E5C27A74D347C79EBB0 /* Pods-Image TarckAR-Image TarckARUITests.debug.xcconfig */,
+				F1AEA7E2653216A5EB64E5FD /* Pods-Image TarckAR-Image TarckARUITests.release.xcconfig */,
+				3F2688FF670A78C7108FB13C /* Pods-Image TarckARTests.debug.xcconfig */,
+				ADAFAA40B434667EB0CB6FAE /* Pods-Image TarckARTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		C700159127C261D5001AF342 = {
 			isa = PBXGroup;
 			children = (
+				C77406D027C8FE5B00CF1B4E /* TrackerViewController.swift */,
 				C700159C27C261D6001AF342 /* Image TarckAR */,
 				C70015B227C261D7001AF342 /* Image TarckARTests */,
 				C70015BC27C261D7001AF342 /* Image TarckARUITests */,
 				C700159B27C261D6001AF342 /* Products */,
+				C2B7E2ECB00033241E51B109 /* Pods */,
+				A57128B38EA57C49A8F8B236 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -98,6 +150,11 @@
 		C700159C27C261D6001AF342 /* Image TarckAR */ = {
 			isa = PBXGroup;
 			children = (
+				C7001A7627C4FA5B001AF342 /* Image-TarckAR-Info.plist */,
+				C77406CE27C8C52B00CF1B4E /* faceID.json */,
+				C774071327C94DE600CF1B4E /* speach.mp4 */,
+				C774070F27C9395B00CF1B4E /* steve_jobs.mp4 */,
+				C70015D027C2A8DD001AF342 /* video.mp4 */,
 				C700159D27C261D6001AF342 /* AppDelegate.swift */,
 				C700159F27C261D6001AF342 /* art.scnassets */,
 				C70015A127C261D6001AF342 /* ViewController.swift */,
@@ -132,9 +189,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C70015C327C261D7001AF342 /* Build configuration list for PBXNativeTarget "Image TarckAR" */;
 			buildPhases = (
+				A0C6989A2601F855B8A11371 /* [CP] Check Pods Manifest.lock */,
 				C700159627C261D6001AF342 /* Sources */,
 				C700159727C261D6001AF342 /* Frameworks */,
 				C700159827C261D6001AF342 /* Resources */,
+				8044FD6C4B000B95AC1B0685 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,6 +208,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C70015C627C261D7001AF342 /* Build configuration list for PBXNativeTarget "Image TarckARTests" */;
 			buildPhases = (
+				406E648DA8F48B5A197D1990 /* [CP] Check Pods Manifest.lock */,
 				C70015AB27C261D7001AF342 /* Sources */,
 				C70015AC27C261D7001AF342 /* Frameworks */,
 				C70015AD27C261D7001AF342 /* Resources */,
@@ -167,9 +227,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C70015C927C261D7001AF342 /* Build configuration list for PBXNativeTarget "Image TarckARUITests" */;
 			buildPhases = (
+				9F8BF37343E4EF39F5DE7F01 /* [CP] Check Pods Manifest.lock */,
 				C70015B527C261D7001AF342 /* Sources */,
 				C70015B627C261D7001AF342 /* Frameworks */,
 				C70015B727C261D7001AF342 /* Resources */,
+				65C43CFB7907AEAFB9F8E319 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -230,7 +292,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				C70015A027C261D6001AF342 /* art.scnassets in Resources */,
+				C774071427C94DE600CF1B4E /* speach.mp4 in Resources */,
+				C70015D127C2A8DD001AF342 /* video.mp4 in Resources */,
+				C77406CF27C8C52B00CF1B4E /* faceID.json in Resources */,
 				C70015AA27C261D7001AF342 /* LaunchScreen.storyboard in Resources */,
+				C774071027C93B4000CF1B4E /* steve_jobs.mp4 in Resources */,
 				C70015A727C261D7001AF342 /* Assets.xcassets in Resources */,
 				C70015A527C261D6001AF342 /* Main.storyboard in Resources */,
 			);
@@ -252,11 +318,115 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		406E648DA8F48B5A197D1990 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Image TarckARTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		65C43CFB7907AEAFB9F8E319 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Image TarckAR-Image TarckARUITests/Pods-Image TarckAR-Image TarckARUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Image TarckAR-Image TarckARUITests/Pods-Image TarckAR-Image TarckARUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Image TarckAR-Image TarckARUITests/Pods-Image TarckAR-Image TarckARUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8044FD6C4B000B95AC1B0685 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Image TarckAR/Pods-Image TarckAR-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Image TarckAR/Pods-Image TarckAR-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Image TarckAR/Pods-Image TarckAR-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9F8BF37343E4EF39F5DE7F01 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Image TarckAR-Image TarckARUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A0C6989A2601F855B8A11371 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Image TarckAR-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C700159627C261D6001AF342 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C77406D127C8FE5B00CF1B4E /* TrackerViewController.swift in Sources */,
 				C70015A227C261D6001AF342 /* ViewController.swift in Sources */,
 				C700159E27C261D6001AF342 /* AppDelegate.swift in Sources */,
 			);
@@ -432,12 +602,15 @@
 		};
 		C70015C427C261D7001AF342 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 566B1665DDC8FD790C7E0775 /* Pods-Image TarckAR.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 674356HMAW;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Image-TarckAR-Info.plist";
 				INFOPLIST_KEY_NSCameraUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
@@ -446,12 +619,13 @@
 				INFOPLIST_KEY_UIStatusBarHidden = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "NK.Image-TarckAR";
+				PRODUCT_BUNDLE_IDENTIFIER = NK.ImageTarckAR;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -461,12 +635,15 @@
 		};
 		C70015C527C261D7001AF342 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E8AB92B569004EDF2FEDDA2F /* Pods-Image TarckAR.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 674356HMAW;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Image-TarckAR-Info.plist";
 				INFOPLIST_KEY_NSCameraUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
@@ -475,12 +652,13 @@
 				INFOPLIST_KEY_UIStatusBarHidden = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "NK.Image-TarckAR";
+				PRODUCT_BUNDLE_IDENTIFIER = NK.ImageTarckAR;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -490,6 +668,7 @@
 		};
 		C70015C727C261D7001AF342 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3F2688FF670A78C7108FB13C /* Pods-Image TarckARTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -514,6 +693,7 @@
 		};
 		C70015C827C261D7001AF342 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ADAFAA40B434667EB0CB6FAE /* Pods-Image TarckARTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -538,6 +718,7 @@
 		};
 		C70015CA27C261D7001AF342 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D31A8E5C27A74D347C79EBB0 /* Pods-Image TarckAR-Image TarckARUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -560,6 +741,7 @@
 		};
 		C70015CB27C261D7001AF342 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F1AEA7E2653216A5EB64E5FD /* Pods-Image TarckAR-Image TarckARUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

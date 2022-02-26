@@ -34,7 +34,35 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func applicationDidBecomeActive(_ application: UIApplication) {
         // Restart any tasks that were paused (or not yet started) while the application was inactive. If the application was previously in the background, optionally refresh the user interface.
     }
+    
+    func application(_ app: UIApplication, open url: URL, options: [UIApplication.OpenURLOptionsKey : Any] = [:]) -> Bool {
+        // Determine who sent the URL.
+            let sendingAppID = options[.sourceApplication]
+            print("source application = \(sendingAppID ?? "Unknown")")
 
+            // Process the URL.
+        guard let vc = window?.rootViewController as? ViewController else { return false }
+        
+        let parsedUrl = url.relativeString.replacingOccurrences(of: "myImageTracker://url=", with: "")
 
+        vc.imageUrl = parsedUrl
+        
+        
+            guard let components = NSURLComponents(url: url, resolvingAgainstBaseURL: true),
+                let albumPath = components.path,
+                let params = components.queryItems else {
+                    print("Invalid URL or album path missing")
+                    return false
+            }
+
+            if let photoIndex = params.first(where: { $0.name == "index" })?.value {
+                print("albumPath = \(albumPath)")
+                print("photoIndex = \(photoIndex)")
+                return true
+            } else {
+                print("Photo index missing")
+                return false
+            }
+    }
 }
 
